@@ -677,10 +677,6 @@ html{
   height: 100%;
 }
 
-.max-h-80 {
-  max-height: 20rem;
-}
-
 .max-h-72 {
   max-height: 18rem;
 }
@@ -701,16 +697,12 @@ html{
   width: 100%;
 }
 
-.max-w-96 {
-  max-width: 24rem;
+.max-w-80 {
+  max-width: 20rem;
 }
 
 .max-w-\[1200px\] {
   max-width: 1200px;
-}
-
-.max-w-80 {
-  max-width: 20rem;
 }
 
 .-translate-y-full {
@@ -761,6 +753,10 @@ html{
   justify-content: space-between;
 }
 
+.gap-1 {
+  gap: 0.25rem;
+}
+
 .gap-10 {
   gap: 2.5rem;
 }
@@ -787,10 +783,6 @@ html{
 
 .gap-5 {
   gap: 1.25rem;
-}
-
-.gap-1 {
-  gap: 0.25rem;
 }
 
 .overflow-hidden {
